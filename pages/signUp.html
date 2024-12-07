@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/signup.css">
+    <title>Login</title>
+</head>
+
+<body>
+    <main>
+        <div class="container text-center my-5">
+            <div class="login m-auto w-75 p-5">
+                <h1 class="mb-4">Smart Login System</h1>
+                <input type="text" class="form-control bg-transparent mb-3 text-white" placeholder="Enter your Name"
+                    id="signName">
+                <input type="text" class="form-control bg-transparent mb-3 text-white" placeholder="Enter your Email"
+                    id="signEmail">
+                <input type="password" class="form-control bg-transparent mb-4 text-white"
+                    placeholder="Enter your Password" id="signPass">
+                <p class="text-danger d-none" id="warning">All inputs are required</p>
+                <p class="text-success d-none" id="sucess">Sucess</p>
+                <p class="text-danger d-none" id="emailExist">email already exists</p>
+                <button class="btn btn-outline-info mb-3 w-100" id="signupBtn">Sign Up</button>
+                <p class="text-white">
+                    Already have an account?
+                    <a class="text-white" href="../index.html">Sign in</a>
+                </p>
+            </div>
+        </div>
+    </main>
+    <script src="../js/bootstrap.bundle.min.js"></script>
+    <script src="../js/signup.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,23 @@
+body{
+    background-color: #24353F;
+    font-family: "Titillium Web", sans-serif;
+}
+.navbar{
+    background-color: #24353F !important;
+    box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+}
+@media screen and (max-width:992px){
+    .btn-outline-warning{
+        width: 100%;
+    }
+    
+}
+.navbar-brand{
+    letter-spacing: 1px;
+}
+.welcome{
+    box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+    h1{
+        color: #17A2B8;
+    } 
+}
